@@ -32,7 +32,7 @@ export default function Signup({ switchMode, customSignup }) {
     setError(null);
     setMessage(null);
 
-    if (!form.name.trim()) {
+    if (!form.username.trim()) {
       setError("Please enter your name");
       return;
     }
